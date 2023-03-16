@@ -14,23 +14,23 @@ const BarChart = ({ isDashboard = false }) => {
         // added
             axis: {
                 domain: {
-                line: {
-                    stroke: colors.grey[100],
-                },
+                    line: {
+                        stroke: colors.grey[100],
+                    },
                 },
                 legend: {
-                text: {
-                    fill: colors.grey[100],
-                },
+                    text: {
+                        fill: colors.grey[100],
+                    },
                 },
                 ticks: {
-                line: {
-                    stroke: colors.grey[100],
-                    strokeWidth: 1,
-                },
-                text: {
-                    fill: colors.grey[100],
-                },
+                    line: {
+                        stroke: colors.grey[100],
+                        strokeWidth: 1,
+                    },
+                    text: {
+                        fill: colors.grey[100],
+                    },
                 },
             },
             legends: {
